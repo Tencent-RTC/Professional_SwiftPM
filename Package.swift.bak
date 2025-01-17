@@ -38,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "898f4af0c0298a451aaa1929f4e256496e55661539991c3c48c13379840d3b10"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.2/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "6735c24f1ae1a5acb75886b47eaa032ee4a99cd99fa0719638216721ddede152"
         ),
         .target(
             name: "Professional_SwiftPM",

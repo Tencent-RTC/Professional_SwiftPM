@@ -23,23 +23,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Professional",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.6/professional/TXLiteAVSDK_Professional.xcframework.zip",
-            checksum: "9a49a530549b07cb988756e148b5d36cf6b2bd4fcefc5dee8bfca15afedb12e1"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/professional/TXLiteAVSDK_Professional.xcframework.zip",
+            checksum: "00c616546a3e6e884698e39eee20e2a4bd7eaf9d533a95e7cab5b7049b0bbf43"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.6/professional/TXFFmpeg.xcframework.zip",
-            checksum: "1a35b14445bc68e2f68fe8a4b6941c45694f3cd8ca1938195ff4b60c27be4fde"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/professional/TXFFmpeg.xcframework.zip",
+            checksum: "502334c5ef939aa582bd8a100d6eeb9c9f28dc60207594462d3831ba1a8cd78b"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.6/professional/TXSoundTouch.xcframework.zip",
-            checksum: "bd6c66491159360ad5a7a4426dc02352f04a6b3242356777daac8f8b85084bc7"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/professional/TXSoundTouch.xcframework.zip",
+            checksum: "dece9c049a935af9a7a6b3302e654b39462fe5d3cd43f79a96506b51c70914d8"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.6/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "93d612147d57d71f5ea19d9ccfc951f47e1862c347d6e613dc5d8f52c6163d2c"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.8/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "730cb649ad7060ec392836f51cd90fa1e10a06273aa0c807d9890dbdf119e190"
         ),
         .target(
             name: "Professional_SwiftPM",

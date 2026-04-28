@@ -23,23 +23,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Professional",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional/TXLiteAVSDK_Professional.xcframework.zip",
-            checksum: "1feee213ff8c338f2ad2b05b0db1678472be79a066f112087b9285fb8f31bc86"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional/13.3.0.20845/TXLiteAVSDK_Professional.xcframework.zip",
+            checksum: "df746ad5ee3be65d3330f7a259b635664e931426d113a83489551920dbba3c40"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional/TXFFmpeg.xcframework.zip",
-            checksum: "12499178ed7b5feae73dacb27f278091235a63dada4cdd4fbbbf45c28f34cf51"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional/13.3.0.20845/TXFFmpeg.xcframework.zip",
+            checksum: "7d0984a4ed30c826868391a0890f5169f0a611c5cf488d960f8949d0e2cff49d"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional/TXSoundTouch.xcframework.zip",
-            checksum: "97735f587769eeb6f2751cff8eb6c74b40937276fbce2e3945fff38c4f9d76c9"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional/13.3.0.20845/TXSoundTouch.xcframework.zip",
+            checksum: "7b0de42045f836fcd68c439899ea86b598a566e54ef62e4ab329a14caeb1da82"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "49739a2c66ce5b7d6579f7eabcd17a9754d43250b9c4a7454294e9d868c72aee"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional/13.3.0.20845/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "9dac3f8cca25b0a1020978a92d004284750f5466e2c61bb093203f78b853c650"
         ),
         .target(
             name: "Professional_SwiftPM",

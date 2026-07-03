@@ -23,23 +23,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_Professional",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21062/TXLiteAVSDK_Professional.xcframework.zip",
-            checksum: "5c19c94b98b832a426bc5c6cdad390f737b82a8a25c39183c5dc1fb65f117ba6"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21067/TXLiteAVSDK_Professional.xcframework.zip",
+            checksum: "400eefe26bb9d041cfbf0d9ccfbaadf306982f974a41a007806818d88319deac"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21062/TXFFmpeg.xcframework.zip",
-            checksum: "441fbe0ca05f367cf110e6673c318edd91bcba6612576983027c7b8f8e301131"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21067/TXFFmpeg.xcframework.zip",
+            checksum: "4005fda7382df0b8c7d2f4b799270c3e2c74372025b8e7916b036905d764f40e"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21062/TXSoundTouch.xcframework.zip",
-            checksum: "4ad4811816ef28dfa25549a928d8b34ac5d6e442457105be03cff1a7e6ecfb7d"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21067/TXSoundTouch.xcframework.zip",
+            checksum: "330a099c27ff6c357d8826dc040ba063dc8a4e65881e4a4ce9a8b2d7cafe6170"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21062/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "0e73db0f2d590901502ece303c17792e420044c4454d40611158c2d07c3ab5e7"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.4/professional/13.4.0.21067/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "cecb7db1af4a33a0854c26b9109260de1c4eb42af533a5396b37516fd2adbf1a"
         ),
         .target(
             name: "Professional_SwiftPM",
